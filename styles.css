@@ -135,7 +135,7 @@ span{
     transform: translate(-50%, -50%);
     width: 100%;
     height: 100%;
-    background-color: rgb(50, 253, 211); /* Semi-transparent background color */
+   
     border-radius: 50%;
     filter: blur(25px); /* Apply a blur effect */
     opacity: 0;
@@ -458,7 +458,8 @@ color: var(--second-bg-color);
         width: 40vm;
     }
     .about .about-content{
-        margin-left: 20%;
+      justify-content: center;
+      align-items: center;
     }
 }
 @media(max-width:991px) {
@@ -520,6 +521,8 @@ color: var(--second-bg-color);
    }
 .about {
     flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
 
 }
 .about img{
